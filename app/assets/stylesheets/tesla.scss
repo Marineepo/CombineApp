@@ -1,0 +1,159 @@
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: red;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.test {
+  background-image: url("model-d-inline1.jpg");
+  min-height: 1000px;
+  width: 100%;
+}
+
+#container {
+  margin: auto;
+  width: 1000px;
+}
+
+#logo img {
+  width: 150px;
+  float: left;
+  position: absolute;
+}
+
+#left-nav-buttons {
+  float: left;
+  margin-left: 250px;
+}
+
+#right-nav-buttons {
+  margin-left: 650px;
+  font-size: 0.8em;
+}
+
+.nav-button {
+  color: red;
+  margin-right: auto;
+  margin-left: auto;
+  width: 45%;
+
+}
+
+#content {
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 65%;
+  padding: 10px;
+}
+
+#content #banner {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 500px;
+
+}
+
+#content #marketing-content {
+  
+  text-align: center;
+  color: white;
+}
+
+#line-1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  
+}
+
+#line-2 {
+  font-size: 0.9em;
+}
+
+#buttons {
+  text-align: center;
+  margin-top: 200px;
+
+  
+}
+
+.button1 {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: blue;
+  color: white;
+  max-width: 30px;
+  border: 1px solid transparent;
+}
+#buttons a {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: purple;
+
+}
+.button:hover {
+  border: 1px solid white;
+  
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 1300px;
+  height: 30px;
+  text-align: center;
+
+  
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: .8em;
+}
+

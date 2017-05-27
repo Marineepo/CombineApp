@@ -1,0 +1,60 @@
+<h1>Google Page</h1>
+  <p>  </p>
+  <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#"><div><%= link_to "Google Clone", pages_google_path%></div></a>
+    <a href="#"><div><%= link_to "Tesla Clone", pages_tesla_path%></div></a>
+    <a href="#"><div><%= link_to "Pinterest Clone", pages_pinterest_path%></div></a>
+    <a href="#"><div><%= link_to "Social Clone", pages_social_path%></div></a>
+  </div>
+</div>
+
+<link rel="stylesheet" href="styles.css">
+<header>
+  <ul id='nav-right'>
+      <li><a href="#">Yahoo Messenger></a></li>
+      <li><a href="#">News></a></li>
+      <li><input type="button" id="Sign-in" value="Sign In" /></li>
+  </ul> 
+  
+  <script type="text/javascript">
+    function focusIt()
+    {
+      var my_search_box = document.getElementById("search-box");
+      my_search_box.focus();
+    }
+    
+    onload = focusIt;
+  </script>
+</header>
+
+<div id='content'>
+  <div class="lpic"><%= image_tag "googlelogo.png" %>
+      </div>
+  <div id="logo">
+      
+      <div id="navigate">
+          <input id="search-box" type="text" name="search" />
+      </div>
+      
+      <div id="search-buttons">
+           <input type="button" class="button" name="google" value="Google Search Bar" />
+           <input type="button" class="button" name="google" value="I'm feeling lucky" />
+          
+      </div>
+  </div>
+</div>
+<footer>
+  <ul id="footer-left">
+      <li><a href="#">Business Ads</li></a>
+      <li><a href="#">Ads</li></a>
+      <li><a href="#">about</li></a>
+  </ul>
+  
+  <ul id="footer-right">
+      <li><a href="#">Google Terms></a></li>
+      <li><a href="#">Google Settings></a></li>
+      <li><a href="#">Confidentiality></a></li>
+</footer>
+
